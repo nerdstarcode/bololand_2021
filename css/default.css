@@ -1,0 +1,101 @@
+/* 
+    Fonte: https://fonts.google.com/specimenTab?standard-styles#about
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    background-image: url(../img/produtos/bake-1003685_960_720.jpg);
+    background-color: rgb(107, 89, 131);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    padding: 60px;
+}
+
+/* Navegação */
+nav {
+    background-color:#0022cc;
+    height: 50px;
+}
+
+nav ul{
+    display: block;
+}
+
+nav ul li{
+    display: inline-block;
+    color: #ffffff;
+    line-height: 49px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding:15px 25px */
+}
+
+nav ul li a:hover{
+    color: #0022cc;
+    background-color: #ffffff;
+    border-bottom: solid 5px #d9f826;
+}
+
+/* Corpo */
+body {
+    /* background-image: url(../icone.png); */
+    font-family: 'Roboto', sans-serif;
+    background-color: #a0affb;
+}
+
+/* Areas */
+section{
+    background-color:#ffffff;
+    height: 100%;
+    min-height: 250px;
+    padding: 80px 0;
+}
+
+#demostracao{
+    background-color:#ffffff;
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100px; */
+}
+
+.demostracaoFotos{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.demostracaoFotos img{
+    width: 100%;
+    padding: 50px;
+}
+
+.demostracaoDetalhe{
+    width: 80%;
+    height: 100%;
+    max-height: 450px;
+    float: left;
+    margin: 0 10%;
+    background-image: url(../img/produtos/bake-1003685_960_720.jpg);
+}
+
+/* #demostracao div img:hover{
+   border: solid 2px #888888;
+    padding: 20px; 
+} */
+
+#propaganda1, #propaganda2, #propaganda3, #propaganda4{
+    padding: 0;
+    background-image: url(../img/propaganda/p200x1000-01-2.jpg);
+}
+
+
